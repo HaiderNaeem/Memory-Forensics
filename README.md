@@ -42,7 +42,7 @@ procdump (dump a process to disk)
  - vol.py -f stuxnet.vmem --profile=WinXPSP2x86 hollowfind | more
  - vol.py -f stuxnet.vmem --profile=WinXPSP2x86 procdump -p 1928,868 --dump-dir=./
  - sha256sum *.exe (hash the two mem dumps)
- - pasted hashes in virustotal, both pids are either shown as duqu or stuxnet
+ - uploaded hashes in virustotal, both pids are either shown as duqu or stuxnet
  -------------------------------
  Red Flags to look out for:
  - svchost.exe should always have parent process of services.exe and -k switch should always be present
