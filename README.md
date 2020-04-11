@@ -8,7 +8,7 @@ volatility --intfo | more (shows supported profiles)
 git clone https://github.com/volatilityfoundation/volatility.git -> ./setup.py install (get latest profiles)
 pstree | pslist | psscan (show process related information)
 malfind (find hidden or injected code/dll's in user mode memory)
-hollowfind (find evidence of process hollowing): Aka hollow process injection. Takes a ligitimate process, duplicates it in suspendent state, replaces executable mithin that process with malicious code and resumes process. Making imposter process with same name and path appear legitimate
+hollowfind (find evidence of process hollowing): Aka hollow process injection. Takes a ligitimate process, duplicates it in suspendent state, replaces executable within that process with malicious code and resumes process. Making imposter process with same name and path appear legitimate
 process injection: injects malicious code into an already running process, resulting in that process executing the code
 procdump (dump a process to disk)
 
