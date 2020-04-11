@@ -57,4 +57,4 @@ procdump (dump a process to disk)
 - VAD, virtual process descriptor: lives in kernel memory 
 - PEB, process enviroment block: lives in process memory (related to eprocess block)
 - Both related to address space of a given process
-- hollowfind shows VAD and PEB comparisons, bad process may ot have memory asscociations with one of these
+- hollowfind shows VAD and PEB comparisons, bad process will not have memory asscociations with one of these
